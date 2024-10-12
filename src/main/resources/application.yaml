@@ -1,0 +1,15 @@
+#m?c ?ích dùng yaml , d? qu?n lý h?n , c?u trúc phân t?ng
+server:
+  port: 8080
+  servlet:
+    context-path: /database
+
+spring:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: "jdbc:mysql://localhost:3306/database_entity"
+    username: root
+    password: root
