@@ -1,11 +1,14 @@
-#m?c ?ích dùng yaml , d? qu?n lý h?n , c?u trúc phân t?ng
 server:
   port: 8080
   servlet:
-    context-path: /database
+    context-path: /
+
+cloudinary:
+  cloud_name: duwwbgpgn  # Thay b?ng cloud_name c?a b?n
+  api_key: 419649838992688 # Thay b?ng api_key c?a b?n
+  api_secret: mUVc4pJPb4KD-3q7dX78ksmWhZA # Thay b?ng api_secret c?a b?n
 
 spring:
-
   jpa:
     hibernate:
       ddl-auto: update
